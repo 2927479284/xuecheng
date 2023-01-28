@@ -5,6 +5,9 @@
     <groupId>com.xuecheng</groupId>
     <artifactId>xuecheng-plus-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <modules>
+        <module>../xuecheng-plus-content</module>
+    </modules>
     <name>xuecheng-plus-parent</name>
 
     <description>xuecheng-plus-parent</description>
