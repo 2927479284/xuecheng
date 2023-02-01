@@ -7,3 +7,31 @@ Content-Type: application/json
   "courseName": "1",
   "publishStatus": "203001"
 }
+
+### 课程分类
+GET {{content_host}}/course-category/tree-nodes
+
+### 新增课程信息
+POST {{content_host}}/content/course
+Content-Type: application/json
+
+{
+
+  "mt": "1",
+  "st": "1",
+  "name": "",
+  "pic": "1",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "1",
+  "grade": "204001",
+  "description": "1",
+  "objectives": "1",
+  "charge": "201000",
+  "price": 0,
+  "originalPrice":0,
+  "qq": "111",
+  "wechat": "111",
+  "phone": "11111",
+  "validDays": 365
+}
